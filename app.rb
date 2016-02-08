@@ -1,7 +1,8 @@
+puts 'Before using the program, make sure that you have installed gem diff-lcs'
+puts 'For this run "gem install diff-lcs" or "bundle" in command line'
+
 require 'diff/lcs'
 
-puts 'Before using the program, make sure that you have installed gem diff-lcs'
-puts 'For this run "gem install diff-lcs" in command line'
 begin
   puts
   puts 'How many files you want to compare (min 2): '
